@@ -1,0 +1,81 @@
+/*nav > h1{
+    color: red;
+}
+
+.first > li{
+    color: brown;
+}
+
+tbody td{
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 900;
+
+}
+thead th{
+    font-size: large;
+    border-color: black;
+    border-style: solid;
+}
+tfoot td{
+    font-family: Arial;
+    border-color: black;
+    border-style: solid;
+
+}
+
+table{
+    border-collapse: collapse;
+    border: "1";
+}
+
+#special ~ li{
+    color:purple;
+}
+
+#special + li{
+    color: orange;
+}
+
+
+ul > li:first-child{
+    color: blueviolet;
+}
+
+ul > li:last-child{
+    color: blue; 
+}
+
+ul > li:nth-child(3){
+    color: chartreuse;
+}
+nav > h1:only-child{
+    color: orange;
+}
+ul li:nth-child(even){
+    color: orange;
+}
+
+ul li:nth-child(odd){
+    color: purple;
+}*/
+
+/*Here 2n is for even and 2n+1 is for odd*/
+
+/*tbody tr:nth-child(2n){
+    background-color: grey;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: darkgray;
+}*/
+
+
+ul li:nth-child(-n+3){
+    color: greenyellow;
+}
+
